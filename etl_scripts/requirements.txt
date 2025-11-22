@@ -1,0 +1,12 @@
+# For reading, cleaning, and merging data
+pandas
+
+# For generating realistic mock data
+faker
+
+# For connecting to the PostgreSQL database (Neon)
+sqlalchemy
+psycopg2-binary
+
+# For reading your .env file locally (optional but recommended)
+python-dotenv

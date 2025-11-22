@@ -1,0 +1,72 @@
+# Repository-level .gitignore for marketing-roi-project
+
+# Python
+# Virtual environments
+venv/
+env/
+.venv/
+backend/backend-venv/
+etl_scripts/etl-venv/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# Installed packages (some projects commit site-packages)
+Lib/site-packages/
+*/Lib/site-packages/
+
+# Environment files
+.env
+.env.*
+.venv
+.venv/
+
+# Pipenv
+Pipfile.lock
+
+# PyInstaller
+*.manifest
+*.spec
+
+# pytest
+.cache/
+.pytest_cache/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+
+# Virtual environment scripts (Windows)
+Scripts/
+
+# VSCode
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node / frontend (include common ones; frontend has its own .gitignore too)
+node_modules/
+dist/
+
+# Logs
+logs
+*.log
+
+# Editor directories and files
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

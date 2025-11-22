@@ -1,0 +1,10 @@
+# The web framework and ASGI server
+fastapi
+uvicorn
+
+# For connecting to the PostgreSQL database (Neon) and querying data
+sqlalchemy
+psycopg2-binary
+
+# For reading your .env file on the server (Render)
+python-dotenv
