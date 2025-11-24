@@ -62,11 +62,6 @@ npm run dev
 
 By default the frontend expects the backend API to be available at `http://localhost:8000/api/metrics` (CORS is permissive in `backend/app/main.py`). Adjust the API base URL in the frontend if needed.
 
-## Environment & Secrets
-- Do not commit `.env` files or virtual environments. A repository-level `.gitignore` is included to ignore common venv names like `backend-venv`, `etl-venv`, `venv`, `.venv`, and `.env` files.
-
-If you accidentally committed secrets, I can help you remove them from git history (using `git filter-repo` or BFG) — tell me which files you need purged.
-
 ## Project Structure (short)
 
 - backend/app/main.py — FastAPI app: loads `DATABASE_URL` via `python-dotenv`, creates SQLAlchemy engine, and defines `/api/metrics` to return aggregated metrics.
